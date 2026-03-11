@@ -1,5 +1,4 @@
 config.yaml
-uv.lock
 __pycache__/
 *.pyc
 .venv/

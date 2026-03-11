@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "screen-warmth"
+version = "0.1.0"
+description = "Smoothly adjusts monitor color temperature based on time of day"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+screen-warmth = "screen_warmth.__main__:main"
